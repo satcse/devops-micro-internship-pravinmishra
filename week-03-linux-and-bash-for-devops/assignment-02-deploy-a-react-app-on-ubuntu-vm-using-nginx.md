@@ -20,7 +20,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-01.png)
+![Node.js and npm version output displaying installed versions](screenshots/week-03-assignment-02-snapshot-01.png)
 
 ---
 
@@ -34,7 +34,7 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-02.png)
+![Nginx service status showing active and running state](screenshots/week-03-assignment-02-snapshot-02.png)
 
 ---
 
@@ -48,7 +48,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-03.png)
+![React application directory listing showing project structure and files](screenshots/week-03-assignment-02-snapshot-03.png)
 
 ---
 
@@ -62,7 +62,7 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-04.png)
+![App.js file opened in nano editor with personalization details](screenshots/week-03-assignment-02-snapshot-04.png)
 
 ---
 
@@ -76,7 +76,7 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-05.png)
+![Production build directory listing showing generated build folder](screenshots/week-03-assignment-02-snapshot-05.png)
 ---
 
 # Task 6 — Deploy React Build to Nginx Web Root
@@ -89,7 +89,7 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-06.png)
+![Nginx web root directory listing showing deployed React build files](screenshots/week-03-assignment-02-snapshot-06.png)
 
 ---
 
@@ -103,13 +103,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-07.png)
+![Systemctl output confirming Nginx service is active](screenshots/week-03-assignment-02-snapshot-07.png)
 
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-08.png)
+![Nginx configuration file showing server settings and routing rules](screenshots/week-03-assignment-02-snapshot-08.png)
 
 ---
 
@@ -123,13 +123,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-09.png)
+![Terminal output displaying server public IP address retrieved via curl](screenshots/week-03-assignment-02-snapshot-09.png)
 
 ---
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-![AWSAccount](screenshots/week-03-assignment-02-snapshot-10.png)
+![Browser window displaying deployed React application with personalization details visible](screenshots/week-03-assignment-02-snapshot-10.png)
 
 ---
 

@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-01.png)
+![Terminal output showing Nginx active status, port 80 listening, and HTTP 200 response confirming healthy baseline](screenshots/week-03-assignment-06-snapshot-01.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-02.png)
+![Terminal output showing working directory path and project folder structure organized in hierarchy](screenshots/week-03-assignment-06-snapshot-02.png)
 
 ---
 
@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-03.png)
+![VS Code editor displaying CLAUDE.md file with project rules and safety guidelines for AI automation](screenshots/week-03-assignment-06-snapshot-03.png)
 
 ---
 
@@ -98,8 +98,8 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-04a.png)
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-04b.png)
+![Claude Code display showing five-check plan for Linux health monitoring](screenshots/week-03-assignment-06-snapshot-04a.png)
+![Claude Code display showing results from read-only system inspections and health check output](screenshots/week-03-assignment-06-snapshot-04b.png)
 
 ---
 
@@ -135,37 +135,37 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-05.png)
+![Text editor displaying linux-triage.sh with variable definitions and health check thresholds](screenshots/week-03-assignment-06-snapshot-05.png)
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-06.png)
+![Text editor displaying linux-triage.sh function definitions and conditional logic for health checks](screenshots/week-03-assignment-06-snapshot-06.png)
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-07.png)
+![Text editor displaying linux-triage.sh loop execution and summary function with exit codes](screenshots/week-03-assignment-06-snapshot-07.png)
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-08.png)
+![Terminal output showing bash syntax validation successful and file permissions with executable flag set](screenshots/week-03-assignment-06-snapshot-08.png)
 
 ---
 
 #### Screenshot 4a — Additional detail
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-4a.png)
+![Claude Code display showing five-check plan for Linux health monitoring](screenshots/week-03-assignment-06-snapshot-4a.png)
 
 ---
 
 #### Screenshot 4b — Additional detail
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-4b.png)
+![Claude Code display showing results from read-only system inspections and health check output](screenshots/week-03-assignment-06-snapshot-4b.png)
 
 ---
 
@@ -221,13 +221,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-09.png)
+![Terminal output displaying linux-triage.sh execution with all health checks passed and HEALTHY status](screenshots/week-03-assignment-06-snapshot-09.png)
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-10.png)
+![Terminal output showing exit code 0 and HEALTHY status summary from linux-triage.sh](screenshots/week-03-assignment-06-snapshot-10.png)
 
 ---
 
@@ -280,13 +280,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-11.png)
+![Text editor displaying SKILL.md file with skill configuration and read-only operational rules](screenshots/week-03-assignment-06-snapshot-11.png)
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-12.png)
+![Claude Code executing /linux-triage skill showing analysis of healthy server status](screenshots/week-03-assignment-06-snapshot-12.png)
 
 ---
 
@@ -338,19 +338,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-13.png)
+![Terminal output showing Nginx inactive status and failed HTTP connection demonstrating incident simulation](screenshots/week-03-assignment-06-snapshot-13.png)
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-14.png)
+![Claude Code executing /linux-triage skill analyzing incident with failed checks and recovery recommendations](screenshots/week-03-assignment-06-snapshot-14.png)
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-15.png)
+![Text editor displaying incident failure report with FAIL status checks and diagnostic information](screenshots/week-03-assignment-06-snapshot-15.png)
 
 ---
 
@@ -412,25 +412,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-16.png)
+![Terminal output showing Nginx active status and successful HTTP 200 response after manual recovery](screenshots/week-03-assignment-06-snapshot-16.png)
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-17.png)
+![Claude Code executing /linux-triage skill showing all checks passed after service recovery](screenshots/week-03-assignment-06-snapshot-17.png)
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-18.png)
+![Terminal output showing reports directory with incident failure and recovery report files](screenshots/week-03-assignment-06-snapshot-18.png)
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-19.png)
+![Text editor displaying incident summary document with reported symptom evidence and recovery details](screenshots/week-03-assignment-06-snapshot-19.png)
 
 ---
 
@@ -570,7 +570,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-![AWSAccount](screenshots/week-03-assignment-06-snapshot-20.png)
+![LinkedIn post showing AI-assisted Linux health check incident triage workflow completion and learning](screenshots/week-03-assignment-06-snapshot-20.png)
 
 ---
 

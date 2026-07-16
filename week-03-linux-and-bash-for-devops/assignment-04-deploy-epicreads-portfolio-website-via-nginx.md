@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-01.png)
+![Nginx service status showing active and running state with system information](screenshots/week-03-assignment-04-snapshot-01.png)
 
 ---
 
@@ -34,7 +34,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-02.png)
+![Directory listing showing extracted portfolio website project folder and files](screenshots/week-03-assignment-04-snapshot-02.png)
 
 ---
 
@@ -48,7 +48,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-03.png)
+![Nano editor displaying website footer HTML with personalization details filled in](screenshots/week-03-assignment-04-snapshot-03.png)
 
 ---
 
@@ -62,13 +62,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-04.png)
+![Nginx configuration syntax test output showing successful validation message](screenshots/week-03-assignment-04-snapshot-04.png)
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-05.png)
+![Nginx web root directory listing showing deployed portfolio website files](screenshots/week-03-assignment-04-snapshot-05.png)
 
 ---
 
@@ -82,13 +82,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-06.png)
+![Terminal output displaying server public IP address retrieved via curl](screenshots/week-03-assignment-04-snapshot-06.png)
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-07.png)
+![Browser window displaying deployed portfolio website with footer personalization details](screenshots/week-03-assignment-04-snapshot-07.png)
 
 ---
 
@@ -102,13 +102,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-08.png)
+![Systemctl output confirming Nginx is enabled to start on system boot](screenshots/week-03-assignment-04-snapshot-08.png)
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-09.png)
+![Curl HTTP header response showing successful 200 OK status from local server](screenshots/week-03-assignment-04-snapshot-09.png)
 
 ---
 
@@ -126,7 +126,7 @@ https://www.linkedin.com/posts/sathish-j-80276569_deployed-the-epicreads-static-
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-![AWSAccount](screenshots/week-03-assignment-04-snapshot-10.png)
+![LinkedIn post showing deployed portfolio website with personalization details in footer](screenshots/week-03-assignment-04-snapshot-10.png)
 
 ---
 

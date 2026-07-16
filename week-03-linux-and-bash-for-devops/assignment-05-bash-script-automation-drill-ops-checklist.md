@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-01.png)
+![Terminal output showing shell environment variable and Bash version information](screenshots/week-03-assignment-05-snapshot-01.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-02.png)
+![Terminal output showing working directory path and scripts folder contents with detailed permissions](screenshots/week-03-assignment-05-snapshot-02.png)
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-03.png)
+![Text editor displaying first-script.sh with shebang and echo commands](screenshots/week-03-assignment-05-snapshot-03.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-04.png)
+![Terminal output showing first-script.sh execution result with welcome message](screenshots/week-03-assignment-05-snapshot-04.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-05.png)
+![Terminal output displaying first-script.sh file permissions with executable flag set](screenshots/week-03-assignment-05-snapshot-05.png)
 
 ---
 
@@ -112,13 +112,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-06.png)
+![Text editor displaying user-info.sh with variable definitions and echo statements](screenshots/week-03-assignment-05-snapshot-06.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-07.png)
+![Terminal output showing user-info.sh execution displaying user variables and course information](screenshots/week-03-assignment-05-snapshot-07.png)
 
 ---
 
@@ -192,13 +192,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-08.png)
+![Text editor displaying tools-checklist.sh with array definition and for loop](screenshots/week-03-assignment-05-snapshot-08.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-09.png)
+![Terminal output showing tools-checklist.sh execution with numbered tool list output](screenshots/week-03-assignment-05-snapshot-09.png)
 
 ---
 
@@ -264,13 +264,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-10.png)
+![Text editor displaying counter.sh with for loop iterating through numbers 1 to 5](screenshots/week-03-assignment-05-snapshot-10.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-11.png)
+![Terminal output showing counter.sh execution with completed step messages numbered 1 to 5](screenshots/week-03-assignment-05-snapshot-11.png)
 
 ---
 
@@ -321,19 +321,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-12.png)
+![Terminal output showing test-folder directory listing with file and folder contents](screenshots/week-03-assignment-05-snapshot-12.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-13.png)
+![Text editor displaying file-check.sh with conditional statements checking file and directory existence](screenshots/week-03-assignment-05-snapshot-13.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-14.png)
+![Terminal output showing file-check.sh execution with file and directory validation results](screenshots/week-03-assignment-05-snapshot-14.png)
 
 ---
 
@@ -379,25 +379,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-15.png)
+![Text editor displaying score-check.sh with score variable set to 85 and if-else conditional](screenshots/week-03-assignment-05-snapshot-15.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-16.png)
+![Terminal output showing score-check.sh execution with result Pass displayed](screenshots/week-03-assignment-05-snapshot-16.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-17.png)
+![Text editor displaying score-check.sh with score variable changed to 55 for retry test](screenshots/week-03-assignment-05-snapshot-17.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-18.png)
+![Terminal output showing score-check.sh execution with result Retry displayed](screenshots/week-03-assignment-05-snapshot-18.png)
 
 ---
 
@@ -447,19 +447,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-19.png)
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-20.png)
+![Text editor displaying first part of final-automation.sh with function definitions and headers](screenshots/week-03-assignment-05-snapshot-19.png)
+![Text editor displaying second part of final-automation.sh with remaining functions and logic](screenshots/week-03-assignment-05-snapshot-20.png)
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-21.png)
+![Terminal output showing final-automation.sh execution with all functions output and results displayed](screenshots/week-03-assignment-05-snapshot-21.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-22.png)
+![Terminal output showing directory listing with all created Bash scripts and permissions](screenshots/week-03-assignment-05-snapshot-22.png)
 
 ---
 
@@ -518,7 +518,7 @@ https://www.linkedin.com/posts/sathish-j-80276569_just-completed-my-bash-scripti
 
 #### Screenshot — Published LinkedIn post
 
-![AWSAccount](screenshots/week-03-assignment-05-snapshot-23.png)
+![LinkedIn post showing Bash scripting automation drill completion and learning achievements](screenshots/week-03-assignment-05-snapshot-23.png)
 
 ---
 

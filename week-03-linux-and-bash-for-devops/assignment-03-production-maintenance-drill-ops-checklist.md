@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-01.png)
+![Browser window displaying deployed React application with full name visible](screenshots/week-03-assignment-03-snapshot-01.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-02.png)
+![Terminal output showing IP address configuration with network interface details](screenshots/week-03-assignment-03-snapshot-02.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-03.png)
+![Terminal output showing listening network sockets and processes with port information](screenshots/week-03-assignment-03-snapshot-03.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-04.png)
+![Terminal output displaying UFW firewall status and rules configuration](screenshots/week-03-assignment-03-snapshot-04.png)
 
 ---
 
@@ -74,19 +74,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-05.png)
+![Nginx service status showing full state information and recent activity](screenshots/week-03-assignment-03-snapshot-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-06.png)
+![Nginx configuration syntax test output showing successful validation](screenshots/week-03-assignment-03-snapshot-06.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-07.png)
+![Terminal output showing processes listening on port 80 with socket information](screenshots/week-03-assignment-03-snapshot-07.png)
 
 ---
 
@@ -123,19 +123,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-08.png)
+![Nginx access log showing recent HTTP requests and responses with status codes](screenshots/week-03-assignment-03-snapshot-08.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-09.png)
+![Nginx error log showing recent errors and warnings with severity information](screenshots/week-03-assignment-03-snapshot-09.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-10.png)
+![Systemd journal showing Nginx service events and state changes with timestamps](screenshots/week-03-assignment-03-snapshot-10.png)
 
 ---
 
@@ -171,25 +171,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-11.png)
+![Terminal output showing system uptime and load average information](screenshots/week-03-assignment-03-snapshot-11.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-12.png)
+![Terminal output showing system memory usage in human-readable format](screenshots/week-03-assignment-03-snapshot-12.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-13.png)
+![Terminal output showing disk space usage and filesystem information in human-readable format](screenshots/week-03-assignment-03-snapshot-13.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-14.png)
+![Terminal output showing directory sizes in /var sorted by size in human-readable format](screenshots/week-03-assignment-03-snapshot-14.png)
 
 ---
 
@@ -219,19 +219,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-15.png)
+![Nginx web root directory listing showing deployed React build files with permissions](screenshots/week-03-assignment-03-snapshot-15.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-16.png)
+![Grep output showing deployment marker text found in deployed application files](screenshots/week-03-assignment-03-snapshot-16.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-17.png)
+![Grep output showing try_files directive in Nginx configuration for React routing](screenshots/week-03-assignment-03-snapshot-17.png)
 
 ---
 
@@ -263,19 +263,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-18.png)
+![Nginx configuration test showing syntax error with error message and line number](screenshots/week-03-assignment-03-snapshot-18.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-19.png)
+![Nginx configuration test showing successful validation with syntax ok message](screenshots/week-03-assignment-03-snapshot-19.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-20.png)
+![Curl HTTP header response showing successful 200 OK status code confirming service recovery](screenshots/week-03-assignment-03-snapshot-20.png)
 
 ---
 
@@ -319,13 +319,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-21.png)
+![Curl HTTP header response showing error status code when application content is missing](screenshots/week-03-assignment-03-snapshot-21.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-22.png)
+![Curl HTTP header response showing successful 200 OK after application content restoration](screenshots/week-03-assignment-03-snapshot-22.png)
 
 ---
 
@@ -410,7 +410,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-![AWSAccount](screenshots/week-03-assignment-03-snapshot-23.png)
+![LinkedIn post showing production maintenance drill completion and DevOps learning experience](screenshots/week-03-assignment-03-snapshot-23.png)
 
 ---
 
