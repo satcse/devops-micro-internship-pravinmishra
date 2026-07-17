@@ -404,7 +404,7 @@ Cloud resources should be **stopped or terminated** when they are no longer need
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/sathish-j-80276569_production-maintenance-drill-complete-real-world-activity-7483211121957711872-X2ZG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA6HMEIBTonD7eyzNj3QgU56nWdszIj2pg0
 
 ---
 
