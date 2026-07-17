@@ -564,7 +564,7 @@ I allowed the AI skill to run the Bash script, read the report, and explain the 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/sathish-j-80276569_built-an-ai-assisted-linux-incident-triage-ugcPost-7483575527417692162-KN1M/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA6HMEIBTonD7eyzNj3QgU56nWdszIj2pg0
 
 ---
 
@@ -578,8 +578,7 @@ Paste your LinkedIn post URL here:
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-https://www.linkedin.com/posts/sathish-j-80276569_built-an-ai-assisted-linux-incident-triage-ugcPost-7483575527417692162-KN1M/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA6HMEIBTonD7eyzNj3QgU56nWdszIj2pg0
-
+https://github.com/satcse/devops-micro-internship-pravinmishra/tree/main/week-03-linux-and-bash-for-devops
 ---
 
 # Submission Instructions
