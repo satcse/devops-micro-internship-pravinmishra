@@ -1,3 +1,4 @@
+
 # Assignment 1 — Your First Agentic Session
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI

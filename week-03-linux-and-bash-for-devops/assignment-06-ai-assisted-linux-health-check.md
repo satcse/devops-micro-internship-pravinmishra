@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+When I run systemctl is-active nginx, it returns active. This confirms that Nginx is running.
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+The output of ss -ltn | grep ':80' shows that port 80 is listening. This means the server is ready to receive HTTP requests.
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+First, I need to make sure everything is working correctly. After simulating the incident, I can compare the failed state with the healthy state to understand what changed. Once I fix the issue, I can check again to confirm that everything is back to normal.
 
 ---
 
